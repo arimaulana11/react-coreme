@@ -1,0 +1,38 @@
+{
+  "name": "coreme",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.3.1",
+    "react-native": "0.55.4",
+    "history": "^4.7.2",
+    "react-native-spinkit": "^1.1.1",
+    "react-native-vector-icons": "^4.4.3",
+    "react-redux": "^5.0.6",
+    "react-router-native": "^4.2.0",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "redux": "^3.7.2",
+    "redux-persist": "^5.4.0",
+    "redux-thunk": "^2.2.0",
+    "remote-redux-devtools": "^0.5.12"
+  },
+  "devDependencies": {
+    "babel-jest": "23.0.1",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "23.0.1",
+    "react-test-renderer": "16.3.1",
+    "babel-eslint": "^8.1.2",
+    "babel-preset-flow": "^6.23.0",
+    "flow": "^0.2.3",
+    "flow-bin": "^0.62.0",
+    "prettier-eslint": "^8.7.0",
+    "redux-devtools-extension": "^2.13.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
